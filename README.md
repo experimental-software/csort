@@ -13,6 +13,10 @@ $ csort -a bubble_sort 7 3 6 4 1
 
 ## Development
 - [What IDEs are available for Ubuntu?](https://askubuntu.com/questions/48299/what-ides-are-available-for-ubuntu)
+- [Ceedling in Eclipse](http://www.throwtheswitch.org/eclipse/)
 
 ## References
+- [Throwtheswitch/Unity](http://www.throwtheswitch.org/unity)
 - [Test-driven development (TDD) in C using Eclipse and CUT (C Unit Testing) -- Prof. Riccardo Poli](https://www.youtube.com/watch?v=y-tBjj9OmdI)
+- [Cover image for Test Driven Development for Embedded C
+Test Driven Development for Embedded C](https://www.safaribooksonline.com/library/view/test-driven-development/9781941222997/)
