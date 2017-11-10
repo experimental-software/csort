@@ -23,6 +23,7 @@ sudo apt-get install eclipse eclipse-cdt g++
 
 ## References
 - [Hello World C Project Eclipse](https://www.youtube.com/watch?v=ny1RbJNgxhc)
+- [Step-by-Step into Argp](https://download-mirror.savannah.gnu.org/releases/argpbook/step-by-step-into-argp.pdf)
 - [Throwtheswitch/Unity](http://www.throwtheswitch.org/unity)
 - [Test-driven development (TDD) in C using Eclipse and CUT (C Unit Testing) -- Prof. Riccardo Poli](https://www.youtube.com/watch?v=y-tBjj9OmdI)
 - [Cover image for Test Driven Development for Embedded C
