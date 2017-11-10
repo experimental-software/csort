@@ -1,5 +1,5 @@
 # csort
-Unix CLI tool for sorting numbers
+`csort` is a Unix command-line tool for sorting numbers. It is written in the C programming language for acadamic purposes.
 
 ## Usage
 ```
