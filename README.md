@@ -12,7 +12,7 @@ $ csort -a bubble_sort 7 3 6 4 1
 ```
 
 ## Development
-- What IDEs are available for Ubuntu? [askubuntu.com](https://askubuntu.com/questions/48299/what-ides-are-available-for-ubuntu)
+- [What IDEs are available for Ubuntu?](https://askubuntu.com/questions/48299/what-ides-are-available-for-ubuntu)
 
 ## References
-- Test-driven development (TDD) in C using Eclipse and CUT (C Unit Testing) -- Prof. Riccardo Poli [youtube.com](https://www.youtube.com/watch?v=y-tBjj9OmdI)
+- [Test-driven development (TDD) in C using Eclipse and CUT (C Unit Testing) -- Prof. Riccardo Poli](https://www.youtube.com/watch?v=y-tBjj9OmdI)
