@@ -13,12 +13,10 @@
 
 int main(int argc, char **argv)
 {
-	//SortingController_RegisterAlgorithm("quicksort", Quicksort)
-	//SortingController_RegisterAlgorithm("merge_sort", MergeSort)
+	argp_parse (0, argc, argv, 0, 0, 0);
+	puts("Hello, C World"); /* prints Hello, C World */
 	
 	//print_array(SortingController_Sort(algorithm, numbers))
 	
-	argp_parse (0, argc, argv, 0, 0, 0);
-	puts("Hello, C World"); /* prints Hello, C World */
 	return EXIT_SUCCESS;
 }
