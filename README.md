@@ -23,8 +23,7 @@ sudo apt-get install eclipse eclipse-cdt g++
 
 ## Run the tests
 ```
-gcc src/BubbleSort.test.c src/BubbleSort.c ./unity/src/unity.c -o TestBubbleSort
-./TestBubbleSort
+gcc src/BubbleSort.test.c src/BubbleSort.c ./unity/src/unity.c -o TestBubbleSort && ./TestBubbleSort
 ```
 
 

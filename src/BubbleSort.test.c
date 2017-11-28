@@ -1,7 +1,7 @@
 #include "../unity/src/unity.h"
 #include "BubbleSort.h"
 
-void test_should_keep_sorted_array_untouched(void)
+void should_keep_sorted_array_untouched(void)
 {
 	int simple_array [] = {4, 5};
 
@@ -11,7 +11,7 @@ void test_should_keep_sorted_array_untouched(void)
 	TEST_ASSERT_EQUAL( simple_array[1] , 5 );
 }
 
-void test_should_sort_simple_array(void)
+void should_sort_simple_array(void)
 {
 	int simple_array [] = {5, 4};
 
@@ -21,11 +21,16 @@ void test_should_sort_simple_array(void)
 	TEST_ASSERT_EQUAL( simple_array[1] , 5 );
 }
 
+void should_support_array_with_one_element(void)
+{
+	// TODO
+}
+
 
 int main(void)
 {
 	UNITY_BEGIN();
-	RUN_TEST(test_should_keep_sorted_array_untouched);
-	RUN_TEST(test_should_sort_simple_array);
+	RUN_TEST(should_keep_sorted_array_untouched);
+	RUN_TEST(should_sort_simple_array);
 	return UNITY_END();
 }
