@@ -5,16 +5,27 @@
  *      Author: janux
  */
 
-#include "DumbExample.h"
+#include "stdlib.h"
+#include "stdio.h"
 
-void bubble_sort(int *array, int number_of_elements)
+int min(int a, int b);
+int max(int a, int b);
+
+void bubble_sort(int *array)
 {
-	int a = array[0];
-	int b = array[1];
+	int pair[] = {array[0], array[1]};
 
-	if (a > b) {
-		array[0] = b;
-		array[1] = a;
-	}
+	array[0] = min(pair[0], pair[1]);
+	array[1] = max(pair[0], pair[1]);
+}
+
+int min(int a, int b)
+{
+	return a < b ? a : b;
+}
+
+int max(int a, int b)
+{
+	return a > b ? a : b;
 }
 

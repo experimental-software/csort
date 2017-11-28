@@ -5,20 +5,20 @@ void should_keep_sorted_array_untouched(void)
 {
 	int simple_array [] = {4, 5};
 
-	bubble_sort(simple_array, 2);
+	bubble_sort(simple_array);
 
-	TEST_ASSERT_EQUAL( simple_array[0] , 4 );
-	TEST_ASSERT_EQUAL( simple_array[1] , 5 );
+	TEST_ASSERT_EQUAL(4, simple_array[0]);
+	TEST_ASSERT_EQUAL(5, simple_array[1]);
 }
 
 void should_sort_simple_array(void)
 {
 	int simple_array [] = {5, 4};
 
-	bubble_sort(simple_array, 2);
+	bubble_sort(simple_array);
 
-	TEST_ASSERT_EQUAL( simple_array[0] , 4 );
-	TEST_ASSERT_EQUAL( simple_array[1] , 5 );
+	TEST_ASSERT_EQUAL(4, simple_array[0]);
+	TEST_ASSERT_EQUAL(5, simple_array[1]);
 }
 
 void should_support_array_with_one_element(void)
