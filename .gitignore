@@ -1,5 +1,9 @@
+# Eclipse
 .cproject
 .project
 .settings/
 Release/
 Debug/
+
+# Ceedling
+build/

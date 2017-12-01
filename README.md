@@ -19,13 +19,15 @@ $ csort -a bubble_sort 7 3 6 4 1
 sudo apt-get install g++
 sudo apt-get install build-essential
 sudo apt-get install eclipse eclipse-cdt g++
+
+gem install ceedling
 ```
 
-## Run the tests
+## Build the project
 ```
-gcc src/BubbleSort.test.c src/BubbleSort.c ./unity/src/unity.c -o TestBubbleSort && ./TestBubbleSort
+ceedling clobber test:all release
+./build/release/csort
 ```
-
 
 ## References
 - [Hello World C Project Eclipse](https://www.youtube.com/watch?v=ny1RbJNgxhc)
@@ -38,3 +40,6 @@ Test Driven Development for Embedded C](https://www.safaribooksonline.com/librar
 - Writing unit tests for C code with the Unity test framework
   - http://www.throwtheswitch.org/unity
   - [Test Driven Development for Embedded C](https://media.pragprog.com/titles/jgade/toc.pdf), [chapter 2.2](https://www.safaribooksonline.com/library/view/test-driven-development/9781941222997/f_0024.html), [chapter A2](https://www.safaribooksonline.com/library/view/test-driven-development/9781941222997/f_0154.html).
+- Build tool: http://www.throwtheswitch.org/ceedling
+  
+  
