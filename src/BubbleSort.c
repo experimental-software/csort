@@ -11,12 +11,20 @@
 int min(int a, int b);
 int max(int a, int b);
 
-void bubble_sort(int *array)
+void bubble_sort(int *array, int number_of_elements)
 {
-	int pair[] = { array[0], array[1] };
+	int i, temp;
+    int n = number_of_elements;
 
-	array[0] = min(pair[0], pair[1]);
-	array[1] = max(pair[0], pair[1]);
+    while(n--) {
+    	for (i = 1; i <= n; i++) {
+    		if (array[i-1] > array[i]) {
+    			temp = array[i];
+    			array[i] = array[i - 1];
+    			array[i-1] = temp;
+    		}
+    	}
+    }
 }
 
 int min(int a, int b)
