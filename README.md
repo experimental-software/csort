@@ -29,6 +29,16 @@ ceedling clobber test:all release
 ./build/release/csort
 ```
 
+## Run the tests
+### Run an individual test
+```
+ceedling clobber test:test_BubbleSort
+```
+### Run all tests
+```
+ceedling clobber test:all
+```
+
 ## References
 - [Hello World C Project Eclipse](https://www.youtube.com/watch?v=ny1RbJNgxhc)
 - [Step-by-Step into Argp](https://download-mirror.savannah.gnu.org/releases/argpbook/step-by-step-into-argp.pdf)

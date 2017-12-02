@@ -13,7 +13,7 @@ int max(int a, int b);
 
 void bubble_sort(int *array)
 {
-	int pair[] = {array[0], array[1]};
+	int pair[] = { array[0], array[1] };
 
 	array[0] = min(pair[0], pair[1]);
 	array[1] = max(pair[0], pair[1]);

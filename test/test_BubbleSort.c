@@ -1,7 +1,7 @@
 #include "unity.h"
 #include "BubbleSort.h"
 
-void testShould_keep_sorted_array_untouched(void)
+void should_keep_sorted_array_untouched(void)
 {
 	int simple_array [] = {4, 5};
 
@@ -21,15 +21,22 @@ void should_sort_simple_array(void)
 	TEST_ASSERT_EQUAL(5, simple_array[1]);
 }
 
+void should_sort_array_with_five_elements(void)
+{
+	int array [] = {5, 4, 0, 1, -3};
+
+	bubble_sort(array);
+
+	TEST_ASSERT_EQUAL(-3, array[0]);
+	TEST_ASSERT_EQUAL( 0, array[1]);
+	TEST_ASSERT_EQUAL( 1, array[2]);
+	TEST_ASSERT_EQUAL( 4, array[3]);
+	TEST_ASSERT_EQUAL( 5, array[4]);
+}
+
 void should_support_array_with_one_element(void)
 {
 	// TODO
-}
-
-
-void testGetSampleShouldDelegateToAdcTemperatureSensor(void)
-{
-  TEST_ASSERT_EQUAL(847, 1);
 }
 
 
