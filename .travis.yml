@@ -1,0 +1,10 @@
+sudo: required
+os: linux
+
+before_install:
+  - sudo apt-get update -qq
+  - sudo apt-get install --assume-yes --quiet g++ build-essential ruby
+  - gem install ceedling
+
+script:
+  - ceedling test:all

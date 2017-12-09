@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/experimental-software/csort.svg?branch=master)](https://travis-ci.org/experimental-software/csort)
+
 # csort
 `csort` is a Unix command-line tool for sorting numbers. It is written in the C programming language for acadamic purposes.
 
@@ -52,4 +54,4 @@ Test Driven Development for Embedded C](https://www.safaribooksonline.com/librar
   - [Test Driven Development for Embedded C](https://media.pragprog.com/titles/jgade/toc.pdf), [chapter 2.2](https://www.safaribooksonline.com/library/view/test-driven-development/9781941222997/f_0024.html), [chapter A2](https://www.safaribooksonline.com/library/view/test-driven-development/9781941222997/f_0154.html).
 - Build tool: http://www.throwtheswitch.org/ceedling
 - [Tasking cycle -- Fred George](https://twitter.com/Janux_DE/status/888837134811103232)
-  
+- [[Video] How to start using Travis CI with your GitHub hosted code in 5 minutes -- Onwwward](https://www.youtube.com/watch?v=FEXY1ZP-sBs)
