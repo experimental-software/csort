@@ -51,5 +51,5 @@ Test Driven Development for Embedded C](https://www.safaribooksonline.com/librar
   - http://www.throwtheswitch.org/unity
   - [Test Driven Development for Embedded C](https://media.pragprog.com/titles/jgade/toc.pdf), [chapter 2.2](https://www.safaribooksonline.com/library/view/test-driven-development/9781941222997/f_0024.html), [chapter A2](https://www.safaribooksonline.com/library/view/test-driven-development/9781941222997/f_0154.html).
 - Build tool: http://www.throwtheswitch.org/ceedling
-  
+- [Tasking cycle -- Fred George](https://twitter.com/Janux_DE/status/888837134811103232)
   

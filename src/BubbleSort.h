@@ -1,2 +1,2 @@
 
-void bubble_sort(int *array, int number_of_elements);
+void bubble_sort(int *array, size_t number_of_elements);
