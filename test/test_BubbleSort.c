@@ -40,4 +40,7 @@ void should_support_array_with_one_element(void)
 }
 
 
-
+void should_fail(void)
+{
+	TEST_ASSERT_EQUAL(1, 0);
+}
