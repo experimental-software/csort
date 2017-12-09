@@ -1,0 +1,15 @@
+sudo: required
+
+os: linux
+
+before_install:
+  - sudo pip install gcovr
+  - sudo apt-get update -qq
+  - sudo apt-get install --assume-yes --quiet g++ build-essential ruby
+  - sudo apt-get install --assume-yes --quiet gcc-multilib gcc-avr binutils-avr avr-libc
+  - gem install ceedling
+
+script:
+  - gcc --version
+  - ceedling test:all
+

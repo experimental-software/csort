@@ -281,7 +281,7 @@ class Configurator
     blotter << @configurator_setup.validate_tools( config )
     blotter << @configurator_setup.validate_plugins( config )
 
-    raise if (blotter.include?( false ))
+    #raise if (blotter.include?( false ))
   end
 
 
@@ -351,4 +351,3 @@ class Configurator
 
 
 end
-
