@@ -28,7 +28,7 @@ gem install ceedling
 ## Build the project
 ```
 ceedling clobber test:all release
-./build/release/csort
+./build/release/csort --help
 ```
 
 ## Run the tests
@@ -44,9 +44,9 @@ ceedling clobber test:all
 ## References
 - [Hello World C Project Eclipse](https://www.youtube.com/watch?v=ny1RbJNgxhc)
 - [Step-by-Step into Argp](https://download-mirror.savannah.gnu.org/releases/argpbook/step-by-step-into-argp.pdf)
+- [Argp Examples](https://www.gnu.org/software/libc/manual/html_node/Argp-Examples.html#Argp-Examples)
 - [Test-driven development (TDD) in C using Eclipse and CUT (C Unit Testing) -- Prof. Riccardo Poli](https://www.youtube.com/watch?v=y-tBjj9OmdI)
-- [Cover image for Test Driven Development for Embedded C
-Test Driven Development for Embedded C](https://www.safaribooksonline.com/library/view/test-driven-development/9781941222997/)
+- [Test Driven Development for Embedded C](https://www.safaribooksonline.com/library/view/test-driven-development/9781941222997/)
 - Sorting alogithms
   - C von A bis Z -- Jürgen Wolf, p. 766 ff.
 - Writing unit tests for C code with the Unity test framework
