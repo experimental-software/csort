@@ -13,9 +13,7 @@ $ csort -a bubble_sort 7 3 6 4 1
 1 3 4 6 7
 ```
 
-## Development
-- [What IDEs are available for Ubuntu?](https://askubuntu.com/questions/48299/what-ides-are-available-for-ubuntu)
-- [Ceedling in Eclipse](http://www.throwtheswitch.org/eclipse/)
+## Dependencies
 ### Ubuntu
 ```
 sudo apt-get install g++
@@ -56,3 +54,5 @@ ceedling clobber test:all
 - Build tool: http://www.throwtheswitch.org/ceedling
 - [Tasking cycle -- Fred George](https://twitter.com/Janux_DE/status/888837134811103232)
 - [[Video] How to start using Travis CI with your GitHub hosted code in 5 minutes -- Onwwward](https://www.youtube.com/watch?v=FEXY1ZP-sBs)
+- [What IDEs are available for Ubuntu?](https://askubuntu.com/questions/48299/what-ides-are-available-for-ubuntu)
+- [Ceedling in Eclipse](http://www.throwtheswitch.org/eclipse/)
