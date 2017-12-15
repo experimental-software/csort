@@ -21,6 +21,7 @@ $ csort -a bubble_sort 7 3 6 4 1
 sudo apt-get install g++
 sudo apt-get install build-essential
 sudo apt-get install eclipse eclipse-cdt g++
+sudo apt-get install ruby
 
 gem install ceedling
 ```
