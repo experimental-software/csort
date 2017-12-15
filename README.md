@@ -13,9 +13,10 @@ $ csort -a bubble_sort 7 3 6 4 1
 1 3 4 6 7
 ```
 
-## Dependencies
+## (1) Install dependencies
 ### Ubuntu
 ```
+sudo apt-get install git
 sudo apt-get install g++
 sudo apt-get install build-essential
 sudo apt-get install eclipse eclipse-cdt # optional
@@ -24,13 +25,19 @@ sudo apt-get install ruby
 gem install ceedling
 ```
 
-## Build the project
+## (2) Download the project
+```
+git clone https://github.com/experimental-software/csort.git
+cd csort
+```
+
+## (3) Build the project
 ```
 ceedling clobber test:all release
 ./build/release/csort --help
 ```
 
-## Run the tests
+## (4) Run the tests
 ### Run an individual test
 ```
 ceedling clobber test:test_BubbleSort
