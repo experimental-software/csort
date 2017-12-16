@@ -2,28 +2,28 @@
 #include <error.h>
 #include <Arguments.h>
 #include <Utils.h>
+#include <BubbleSort.h>
 
 
 int main (int argc, char **argv)
 {
-  int i, j;
-  struct arguments arguments;
+	struct arguments arguments;
+	arguments.algorithm = "bubble_sort";
+	argp_parse (&argp, argc, argv, 0, 0, &arguments);
+	int numbers[arguments.n];
+	to_int_array(arguments.numbers, numbers, arguments.n);
 
-  arguments.algorithm = "bubble_sort";
-  argp_parse (&argp, argc, argv, 0, 0, &arguments);
+	bubble_sort(numbers, arguments.n);
 
-  int numbers[arguments.n];
-  to_int_array(arguments.numbers, numbers, arguments.n);
+	print_results(numbers, arguments.n);
 
-  printf ("Number of numbers: %d ", arguments.n);
-  printf ("NUMBERS = ");
+	exit (0);
+}
 
-  for (j = 0; arguments.numbers[j]; j++) {
-	  printf (j == 0 ? "%d" : ", %d", numbers[j]);
-  }
-
-  printf ("\n");
-  printf ("Algorithm = %s\n", arguments.algorithm);
-
-  exit (0);
+void print_results(int *numbers, size_t n)
+{
+	for (int i = 0; i < n; i++) {
+	  printf ("%d ", numbers[i]);
+	}
+	printf("\n");
 }
