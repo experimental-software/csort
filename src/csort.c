@@ -4,18 +4,22 @@
 #include <Utils.h>
 #include <BubbleSort.h>
 
+void print_results(int *numbers, size_t n);
+
 int main(int argc, char **argv)
 {
+    // Evaluate arguments
     struct arguments arguments;
-    arguments.algorithm = "bubble_sort";
     argp_parse(&argp, argc, argv, 0, 0, &arguments);
 
-    int numbers[arguments.n];
-    to_int_array(arguments.numbers, numbers, arguments.n);
+    int numbers[arguments.number_of_numbers];
+    to_int_array(arguments.numbers, numbers, arguments.number_of_numbers);
 
-    bubble_sort(numbers, arguments.n);
+    // Sort the numbers
+    bubble_sort(numbers, arguments.number_of_numbers);
 
-    print_results(numbers, arguments.n);
+    // Print the results on the terminal
+    print_results(numbers, arguments.number_of_numbers);
 
     exit(0);
 }

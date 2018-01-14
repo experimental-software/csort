@@ -158,6 +158,7 @@ DEFAULT_RELEASE_COMPILER_TOOL = {
     "-DGNU_COMPILER".freeze,
     "-c \"${1}\"".freeze,
     "-o \"${2}\"".freeze,
+    "-std=c99".freeze
     # gcc's list file output options are complex; no use of ${3} parameter in default config
     ].freeze
   }

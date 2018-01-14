@@ -14,3 +14,4 @@ void should_transform_char_array_to_number_array(void)
     TEST_ASSERT_EQUAL_INT(0, numbers_as_integers[2]);
     TEST_ASSERT_EQUAL_INT(2, numbers_as_integers[3]);
 }
+

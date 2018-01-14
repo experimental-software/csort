@@ -1,6 +1,8 @@
 #include "stdlib.h"
 #include "stdio.h"
 
+void swap_elements(int *array, int index_a, int index_b);
+
 /**
  * https://en.wikipedia.org/wiki/Bubble_sort
  */

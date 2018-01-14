@@ -3,28 +3,23 @@
 static char doc[] = "The purpose of this program is to sort integer numbers.";
 static char args_doc[] = "NUMBER...";
 
-static struct argp_option options[] = { { "algorithm", 'a', 0, 0,
-        "The algorithm to be used for sorting" }, { "reverse", 'r', 0, 0,
+static struct argp_option options[] = { { "reverse", 'r', 0, 0,
         "Print out the sort results in reverse order" }, { 0 } };
 
 struct arguments
 {
-    int n;
+    int number_of_numbers;
     char **numbers;
-    char *algorithm;
 };
 
 static error_t parse_opt(int key, char *arg, struct argp_state *state)
 {
     struct arguments *arguments = state->input;
 
-    arguments->n = state->arg_num;
+    arguments->number_of_numbers = state->arg_num;
 
     switch (key)
     {
-    case 'a':
-        arguments->algorithm = arg;
-        break;
 
     case ARGP_KEY_NO_ARGS:
         argp_usage(state);
