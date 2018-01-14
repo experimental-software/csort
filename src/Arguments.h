@@ -10,6 +10,7 @@ struct arguments
 {
     int number_of_numbers;
     char **numbers;
+    int reverse_sort;
 };
 
 static error_t parse_opt(int key, char *arg, struct argp_state *state)
@@ -28,6 +29,10 @@ static error_t parse_opt(int key, char *arg, struct argp_state *state)
     case ARGP_KEY_ARG:
         arguments->numbers = &state->argv[state->next - 1];
         state->next = state->argc;
+        break;
+
+    case 'r':
+        arguments->reverse_sort = state->next;
         break;
 
     default:
