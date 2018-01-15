@@ -7,6 +7,8 @@ void should_keep_sorted_array_untouched(void)
 
     bubble_sort(simple_array, 2);
 
+    TEST_ASSERT_EQUAL(1, 0);
+
     TEST_ASSERT_EQUAL(4, simple_array[0]);
     TEST_ASSERT_EQUAL(5, simple_array[1]);
 }
