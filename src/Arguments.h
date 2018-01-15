@@ -3,8 +3,10 @@
 static char doc[] = "The purpose of this program is to sort integer numbers.";
 static char args_doc[] = "NUMBER...";
 
-static struct argp_option options[] = { { "reverse", 'r', 0, 0,
-        "Print out the sort results in reverse order" }, { 0 } };
+static struct argp_option options[] = {
+        { "reverse", 'r', 0, 0, "Print out the sort results in reverse order" },
+        { 0 }
+};
 
 struct arguments
 {
