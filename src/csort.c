@@ -2,7 +2,7 @@
 #include <error.h>
 #include <Arguments.h>
 #include <Utils.h>
-#include <BubbleSort.h>
+#include <Sorting.h>
 
 void print_results(int *numbers, size_t n);
 

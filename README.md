@@ -39,7 +39,7 @@ ceedling clobber test:all release
 ### (4) Run the tests
 #### Run an individual test
 ```
-ceedling clobber test:test_BubbleSort
+ceedling clobber test:test_Sorting
 ```
 #### Run all tests
 ```
