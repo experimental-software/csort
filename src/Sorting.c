@@ -28,3 +28,19 @@ void swap_elements(int *array, int index_a, int index_b)
     array[index_a] = array[index_b];
     array[index_b] = temp;
 }
+
+void reverse(int *array, size_t number_of_elements)
+{
+    int sorted_array[number_of_elements];
+
+    for (int i = 0; i < number_of_elements; i++)
+    {
+        int insert_index = abs(i - number_of_elements) - 1;
+        sorted_array[insert_index] = array[i];
+    }
+
+    for (int i = 0; i < number_of_elements; i++)
+    {
+        array[i] = sorted_array[i];
+    }
+}

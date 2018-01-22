@@ -18,6 +18,12 @@ int main(int argc, char **argv)
     // Sort the numbers
     bubble_sort(numbers, arguments.number_of_numbers);
 
+    // Reverse sort order if requested
+    if (arguments.reverse_sort == 2)
+    {
+        reverse(numbers, arguments.number_of_numbers);
+    }
+
     // Print the results on the terminal
     print_results(numbers, arguments.number_of_numbers);
 

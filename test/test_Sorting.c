@@ -13,3 +13,15 @@ void should_sort_array_with_bubble_sort(void)
     TEST_ASSERT_EQUAL(4, array[3]);
     TEST_ASSERT_EQUAL(5, array[4]);
 }
+
+void should_apply_reverse_sort_order(void)
+{
+    int numbers[] = { 1, 4, 9, 12 };
+
+    reverse(numbers, 4);
+
+    TEST_ASSERT_EQUAL(12, numbers[0]);
+    TEST_ASSERT_EQUAL(9, numbers[1]);
+    TEST_ASSERT_EQUAL(4, numbers[2]);
+    TEST_ASSERT_EQUAL(1, numbers[3]);
+}
