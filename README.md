@@ -13,7 +13,7 @@ $ csort -r 7 3 6 4 1
 
 ## Getting started
 ### (1) Install dependencies
-#### Ubuntu
+#### Ubuntu / Debian
 ```
 sudo apt-get install git
 sudo apt-get install g++
