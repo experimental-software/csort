@@ -1,0 +1,1 @@
+/usr/bin/cc CMakeFiles/csort.dir/src/csort.c.o CMakeFiles/csort.dir/src/Sorting.c.o CMakeFiles/csort.dir/src/Utils.c.o -o csort 

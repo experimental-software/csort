@@ -1,0 +1,3 @@
+/home/janux/src/experimental-software/csort/CMakeFiles/csort.dir
+/home/janux/src/experimental-software/csort/CMakeFiles/edit_cache.dir
+/home/janux/src/experimental-software/csort/CMakeFiles/rebuild_cache.dir
