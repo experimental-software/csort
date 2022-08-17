@@ -1,7 +1,9 @@
-[![Build Status](https://travis-ci.org/experimental-software/csort.svg?branch=master)](https://travis-ci.org/experimental-software/csort)
-
 # csort
-`csort` is a Unix command-line tool for sorting integer numbers. It is written in the C programming language for academic purposes.
+
+`csort` is a Unix command-line tool for sorting integer numbers.
+It is written in the C programming language for academic purposes.
+
+https://github.com/experimental-software/csort/tree/2022-08-15/cmake
 
 ## Build project
 

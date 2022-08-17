@@ -1,15 +1,4 @@
-# Eclipse
-.cproject
-.project
-.settings/
-Release/
-Debug/
-
-# Ceedling
 build/
+.idea/
+cmake-build-debug/
 
-# Emacs
-.#*
-
-# Miscellaneous
-TODO.org
