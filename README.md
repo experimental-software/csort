@@ -3,6 +3,15 @@
 # csort
 `csort` is a Unix command-line tool for sorting integer numbers. It is written in the C programming language for academic purposes.
 
+## Build project
+
+```
+cmake -S src/ -B build/
+cmake -S . -B build/
+cd build/
+make
+```
+
 ## Usage
 ```
 $ csort 7 3 6 4 1
